@@ -8,7 +8,7 @@ const RightSide = () => {
       <FollowCard>
         <Title>
           <h2>Add to your feed</h2>
-          <img src="/images/feed-icon.svg" />
+          <img src="https://omaranbazna.github.io/linked-in-clone2/images/feed-icon.svg" />
         </Title>
         <FeedList>
           <li>
@@ -33,7 +33,7 @@ const RightSide = () => {
 
         <Recommendation>
           view all recommendations
-          <img src="/images/right-icon.svg" />
+          <img src="https://omaranbazna.github.io/linked-in-clone2/images/right-icon.svg" />
         </Recommendation>
       </FollowCard>
       <BannerCard>

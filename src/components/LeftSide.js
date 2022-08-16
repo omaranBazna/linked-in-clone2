@@ -22,11 +22,11 @@ const LeftSide = () => {
               <span>Connections</span>
               <span>Grow your network</span>
             </div>
-            <img src="/images/widget-icon.svg" />
+            <img src="https://omaranbazna.github.io/linked-in-clone2/images/widget-icon.svg" />
           </a>
           <Item>
             <span>
-              <img src="/images/item-icon.svg" />
+              <img src="https://omaranbazna.github.io/linked-in-clone2/images/item-icon.svg" />
               My Items
             </span>
           </Item>
@@ -39,7 +39,7 @@ const LeftSide = () => {
         <a>
           <span>
             Events
-            <img src="/images/plus-icon.svg" />
+            <img src="https://omaranbazna.github.io/linked-in-clone2/images/plus-icon.svg" />
           </span>
         </a>
         <a>
@@ -83,7 +83,7 @@ const CardBackground = styled.div`
 `;
 const Photo = styled.div`
   box-shadow: none;
-  background-image: url("/images/photo.svg");
+  background-image: url("https://omaranbazna.github.io/linked-in-clone2/images/photo.svg");
   width: 72px;
   height: 72px;
   box-sizing: border-box;

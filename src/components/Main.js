@@ -60,24 +60,24 @@ const Main = () => {
     <Container>
       <ShareBox>
         <div>
-          <img src="/images/user.svg" />
+          <img src="https://omaranbazna.github.io/linked-in-clone2/images/user.svg" />
           <button onClick={handleClick}>start a post</button>
         </div>
         <div>
           <button>
-            <img src="/images/photo-icon.svg" />
+            <img src="https://omaranbazna.github.io/linked-in-clone2/images/photo-icon.svg" />
             <span>Photo</span>
           </button>
           <button>
-            <img src="/images/video.svg" />
+            <img src="https://omaranbazna.github.io/linked-in-clone2/images/video.svg" />
             <span>Video</span>
           </button>
           <button>
-            <img src="/images/job.svg" />
+            <img src="https://omaranbazna.github.io/linked-in-clone2/images/job.svg" />
             <span>Jobs</span>
           </button>
           <button>
-            <img src="/images/article.svg" />
+            <img src="https://omaranbazna.github.io/linked-in-clone2/images/article.svg" />
             <span>Articles</span>
           </button>
         </div>
@@ -89,7 +89,11 @@ const Main = () => {
               <SharedActor>
                 <a>
                   <img
-                    src={post.photoURL ? post.photoURL : "/images/user.svg"}
+                    src={
+                      post.photoURL
+                        ? post.photoURL
+                        : "https://omaranbazna.github.io/linked-in-clone2/images/user.svg"
+                    }
                   />
                   <div>
                     <span>Title</span>
@@ -98,7 +102,7 @@ const Main = () => {
                   </div>
                 </a>
                 <button>
-                  <img src="/images/ellipise.svg" />
+                  <img src="https://omaranbazna.github.io/linked-in-clone2/images/ellipise.svg" />
                 </button>
               </SharedActor>
               <Description>
@@ -130,19 +134,19 @@ const Main = () => {
               </SocialCounts>
               <SocialAction>
                 <button>
-                  <img src="/images/like.svg" />
+                  <img src="https://omaranbazna.github.io/linked-in-clone2/images/like.svg" />
                   <span>Like</span>
                 </button>
                 <button>
-                  <img src="/images/comments.svg" />
+                  <img src="https://omaranbazna.github.io/linked-in-clone2/images/comments.svg" />
                   <span>Comment</span>
                 </button>
                 <button>
-                  <img src="/images/share.svg" />
+                  <img src="https://omaranbazna.github.io/linked-in-clone2/images/share.svg" />
                   <span>Share</span>
                 </button>
                 <button>
-                  <img src="/images/send.svg" />
+                  <img src="https://omaranbazna.github.io/linked-in-clone2/images/send.svg" />
                   <span>Send</span>
                 </button>
               </SocialAction>
