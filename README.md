@@ -19,3 +19,5 @@ LinkedIn Clone
 #The code is well documented ,clean ,commented ,divide into separate modules and components and easy to understand.
 
 #I used Git&GitHub for version control.
+
+#Demo available at :https://omaranbazna.github.io/linked-in-clone2/
